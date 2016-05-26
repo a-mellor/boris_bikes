@@ -19,7 +19,6 @@ describe DockingStation do
 			expect { subject.dock(Bike.new) }.to raise_error 'Docking station full'
 		end
 	end
-=======
 #describe docking station
 
 require 'DockingStation'
@@ -70,5 +69,4 @@ end
 	#expect {subject.full?}.to eq true
 end
 end
->>>>>>> day-three
 end
