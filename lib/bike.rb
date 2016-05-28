@@ -1,27 +1,33 @@
 class Bike
 <<<<<<< HEAD
+<<<<<<< HEAD
   def working?
     true
   end
 =======
+=======
+
+	attr_writer :working
+
+	def initialize
+		@working = true
+	end
+
+>>>>>>> day-four
 	def working?
-		true
+		@working
 	end
 
 	def report_broken
-		@broken = true
-	end
-	
-	def broken?
-		@broken
+		@working = false
 	end
 
-	# def broken_bike(bike)
-	# 	bike.working? = false
-	# end
-
-	def docked?
-		false
+	def fix_bike
+		@working = true
 	end
+<<<<<<< HEAD
 >>>>>>> day-three
+=======
+
+>>>>>>> day-four
 end
