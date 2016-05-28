@@ -1,5 +1,3 @@
-#describe the bike class
-
 require 'bike'
 
 describe Bike do

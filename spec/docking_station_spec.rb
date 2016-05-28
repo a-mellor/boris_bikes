@@ -2,7 +2,7 @@ require 'docking_station'
 
 describe DockingStation do
 
-  describe '#release_bike' do
+describe '#release_bike' do
     it 'responds to release_bike' do
       expect(subject).to respond_to :release_bike
     end
@@ -35,7 +35,7 @@ describe DockingStation do
       subject.release_broken_bikes
       expect(subject.bikes_broken).to eq []
     end
-    
+
   end
 
   describe '#dock' do
