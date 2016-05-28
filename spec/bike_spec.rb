@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-require "bike"
-
-describe Bike do
-  it "should respond to working?" do
-    expect(subject).to respond_to(:working?)
-  end
-end
-=======
-#describe the bike class
-
->>>>>>> 2ac71710231427a244ee3d0e2c102d763dd5097c
 require 'bike'
 
 describe Bike do
@@ -29,5 +15,4 @@ describe Bike do
 			expect(subject.fix_bike).to eq subject.working?
 		end
 	end
-end
->>>>>>> day-three
+endß

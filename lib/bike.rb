@@ -1,19 +1,9 @@
-class Bike
-<<<<<<< HEAD
-<<<<<<< HEAD
-  def working?
-    true
-  end
-=======
-=======
-
-	attr_writer :working
+attr_writer :working
 
 	def initialize
 		@working = true
 	end
 
->>>>>>> day-four
 	def working?
 		@working
 	end
@@ -25,9 +15,5 @@ class Bike
 	def fix_bike
 		@working = true
 	end
-<<<<<<< HEAD
->>>>>>> day-three
-=======
 
->>>>>>> day-four
 end

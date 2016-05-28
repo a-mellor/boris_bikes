@@ -1,26 +1,4 @@
-<<<<<<< HEAD
 require_relative 'Bike'
-
-class DockingStation
-	attr_reader :bikes
-
-	def initialize
-		@bikes = []
-	end
-
-	def release_bike
-		fail 'No bikes available' if @bikes.empty?
-		@bikes.pop
-	end
-
-	def dock(bike)
-		fail 'Docking station full' if @bikes.count >= 20
-		@bikes << bike
-	end
-end
-
-
-=======
 require_relative 'bike'
 require_relative 'van'
 
@@ -65,21 +43,3 @@ class DockingStation
     @bikes.empty?
   end
 end
-<<<<<<< HEAD:lib/DockingStation.rb
-
-
-
-# station = DockingStation.new
-# 10.times do bike = Bike.new
-# end
-
-# p station.full?
-
-
-
-  #def empty_bikes
-  # return 'Error. No bikes available'
-  #end
->>>>>>> day-three
-=======
->>>>>>> day-four:lib/docking_station.rb
