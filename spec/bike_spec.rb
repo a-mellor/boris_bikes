@@ -1,5 +1,3 @@
-#describe the bike class
-
 require 'bike'
 
 describe Bike do
@@ -17,4 +15,4 @@ describe Bike do
 			expect(subject.fix_bike).to eq subject.working?
 		end
 	end
-end
+endß

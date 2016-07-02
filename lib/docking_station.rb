@@ -1,3 +1,4 @@
+require_relative 'Bike'
 require_relative 'bike'
 require_relative 'van'
 
